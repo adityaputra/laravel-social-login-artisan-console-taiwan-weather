@@ -13,6 +13,32 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+
+/*
 Route::get('/', function () {
     return view('welcome');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+
+
+ */
+
+Route::get('/', function () {
+	    //return view('facebookLogin');
+	    return view('welcome');
+});
+Route::get('auth/facebook', 'Auth\LoginController@redirectToFacebook');
+Route::get('callback/facebook', 'Auth\LoginController@handleFacebookCallback'); 
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
