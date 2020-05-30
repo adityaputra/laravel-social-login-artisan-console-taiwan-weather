@@ -176,6 +176,7 @@ return [
 	App\Providers\RouteServiceProvider::class,
 
 	Laravel\Socialite\SocialiteServiceProvider::class,
+	Weidner\Goutte\GoutteServiceProvider::class,
 
     ],
 
@@ -230,6 +231,7 @@ return [
 	'View' => Illuminate\Support\Facades\View::class,
 
 	'Socialite' => Laravel\Socialite\Facades\Socialite::class,
+	'Goutte' => Weidner\Goutte\GoutteFacade::class,
 
     ],
 
