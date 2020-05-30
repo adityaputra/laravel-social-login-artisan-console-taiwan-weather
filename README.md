@@ -5,7 +5,11 @@ This app will allow you to login with username and password; or using your faceb
 Also, this package contains Console app to retrieve Taiwan's daily weather in a week for each city / county using the below command:
 php artisan twweather:crawl
 
-
+Normal login:
 ![Conventional login](https://github.com/adityaputra/laravel-social-login-artisan-console-taiwan-weather/raw/master/username-pw-login.gif)
+
+Social login:
 ![Social login](https://github.com/adityaputra/laravel-social-login-artisan-console-taiwan-weather/raw/master/social-login.gif)
+
+Console Weather Scraper:
 ![Console Scraper Weather](https://github.com/adityaputra/laravel-social-login-artisan-console-taiwan-weather/raw/master/console-scraper-weather.gif)
